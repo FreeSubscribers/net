@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form validation</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Free Subscribers</h1>
+      <!-- Form -->
+     <form
+  action="https://formspree.io/f/xleynwjv"
+  method="POST"
+>
+         <!-- Subscribers -->
+        <div class="box">
+          <label for="name">Subscribers</label>
+          <input type="text" id="name" placeholder="Subscribers" required minlength="3" maxlength="100" name="name"/>
+        </div>
+        <!-- form-name -->
+        <div class="box">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" placeholder="Full Name" required minlength="3" maxlength="100" name="name"/>
+        </div>
+          <!-- Email Address -->
+          <div class="box">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Email@Address.com" required name="email"/>
+          </div>
+		  <!-- P -->
+		  <div class="box">
+	      <label for="name">Password</label>
+          <input type="text" id="name" placeholder="Password" required minlength="3" maxlength="100" name="name"/>
+        </div>	 
+	    <!--C-P-->
+		  <div class="box">
+	      <label for="name">Confirm Password</label>
+          <input type="text" id="name" placeholder="Confirm Password" required minlength="3" maxlength="100" name="name"/>
+        </div>	 
+          <button type="submit">Register</button>
+      </form>
+      <div class="alert-container">
+          <h3 id="alert">Thank You</h3>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
